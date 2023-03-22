@@ -4,6 +4,12 @@
     box-sizing: border-box;
 }
 
+body{
+    background-image: url("../img/sfondo.jpg");
+    background-size: cover;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
 .multiple3{
     background-color:cadetblue;
 }
@@ -25,9 +31,47 @@
     align-items: center;
 }
 
+.white{
+    background-color: white;
+}
+
 .container{
-    width: 800px;
+    width: 720px;
     margin: 50px auto;
     display: flex;
     flex-wrap: wrap;
+}
+
+.row{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.l1b,
+.l2,
+.l3b,
+.l4,
+.l5b,
+.l6,
+.l7b,
+.l8,
+.l9b,
+.l10{
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+h1{
+    margin-bottom: 30px;
+    color: whitesmoke;
+}
+
+.start{
+    background-color: green;
+}
+
+.finish{
+    background-image: url("../img/finish.jpg");
+    background-size: 400px;
 }
