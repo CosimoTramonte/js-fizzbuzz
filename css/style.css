@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.multiple3{
+    background-color:cadetblue;
+}
+
+.multiple5{
+    background-color:goldenrod;
+}
+
+.multiple35{
+    background-color: crimson;
+}
+
+.box{
+    width: 80px;
+    height: 80px;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    width: 800px;
+    margin: 50px auto;
+    display: flex;
+    flex-wrap: wrap;
+}
